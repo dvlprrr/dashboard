@@ -4,8 +4,7 @@ export const positionReducer = (state = [], action) => {
 
     switch (action.type) {
         case ADD_POSITION:
-
-            return action.positions0
+            return action.positions
 
         default:
             return state
